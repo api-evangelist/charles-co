@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://c-commerce.github.io/charles-browser-sdk/
+docs: https://github.com/c-commerce/charles-browser-sdk#usage
+summary:
+  types:
+  - http
+  http_schemes:
+  - bearer
+  login_flows:
+  - username-password
+  notes: >-
+    Documented from the first-party browser SDK. No public OpenAPI is published,
+    so schemes are captured from the SDK usage docs rather than derived from a
+    spec.
+schemes:
+- name: bearerToken
+  type: http
+  scheme: bearer
+  description: >-
+    After a successful login the SDK stores a token that is sent on subsequent
+    requests (rehydrated via credentials.token). Requests are made against a
+    per-tenant "universe" base host configured at init.
+  obtained_via: username-password login
+  source: https://github.com/c-commerce/charles-browser-sdk#usage
+- name: usernamePasswordLogin
+  type: login
+  description: >-
+    charles.auth.loginUsername({ username, password }) authenticates a client
+    account and returns the session token used as the bearer credential.
+  source: https://github.com/c-commerce/charles-browser-sdk#usage
