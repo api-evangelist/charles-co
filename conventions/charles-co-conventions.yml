@@ -1,0 +1,38 @@
+generated: '2026-07-18'
+method: searched
+source: https://c-commerce.github.io/charles-browser-sdk/
+docs: https://github.com/c-commerce/charles-browser-sdk#usage
+authentication:
+  style: bearer-token
+  obtained_via: username-password login
+  ref: authentication/charles-co-authentication.yml
+base_url_model:
+  style: per-tenant-universe
+  description: >-
+    Clients configure a "universe" base host at init
+    (e.g. https://<tenant>.hello-charles.com); staging and sandbox universes are
+    supported by pointing init at a different universe host. A central
+    api.hello-charles.com service also responds.
+resources:
+  description: >-
+    SDK exposes resource families including auth, me, analytics, status, topics,
+    and messaging/contact entities.
+  observed:
+  - auth
+  - me
+  - analytics
+  - status
+  - topics
+idempotency:
+  supported: unknown
+  note: No idempotency-key convention is documented on the public developer surface.
+pagination:
+  style: unknown
+versioning:
+  ref: lifecycle/charles-co-lifecycle.yml
+error_envelope:
+  shape: unknown
+note: >-
+  Cross-cutting conventions captured from the first-party browser SDK. No public
+  OpenAPI is published; fields that the SDK/docs do not document are recorded as
+  unknown rather than fabricated. No Idempotency pointer wired (not documented).

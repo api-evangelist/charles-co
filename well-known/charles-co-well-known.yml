@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of hello-charles.com hosts
+host: https://www.hello-charles.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+additional_hosts:
+- host: https://api.hello-charles.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+note: >-
+  No /.well-known discovery documents are published on the marketing host or the
+  api.hello-charles.com API host. Recorded for auditability; no WellKnown or
+  SecurityTxt pointer wired (nothing found).

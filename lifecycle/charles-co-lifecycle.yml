@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.hello-charles.com/
+status_page: https://status.hello-charles.com/
+status_page_title: Charles Internal Services
+versioning:
+  scheme: unknown
+  note: >-
+    The Charles API is organized around per-tenant "universe" hosts
+    (https://<tenant>.hello-charles.com) plus the central api.hello-charles.com
+    service; no public versioning or deprecation policy document was found.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+deprecated_artifacts:
+- artifact: "@heycharles/browser-sdk"
+  note: The first-party browser SDK README is marked DEPRECATED on npm/GitHub.

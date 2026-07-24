@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/@heycharles/browser-sdk
+packages:
+- language: javascript
+  registry: npm
+  name: "@heycharles/browser-sdk"
+  url: https://www.npmjs.com/package/@heycharles/browser-sdk
+  install: npm install @heycharles/browser-sdk
+  repository: https://github.com/c-commerce/charles-browser-sdk
+  docs: https://c-commerce.github.io/charles-browser-sdk/
+  license: Apache-2.0
+  official: true
+  deprecated: true
+  note: >-
+    First-party JavaScript/TypeScript browser SDK for the Charles API
+    (universe-based auth + resources). The npm package README is marked
+    DEPRECATED; 688 versions published (2020-02 to 2026-01).

@@ -1,7 +1,17 @@
 aid: charles-co
 name: Charles Co
-description: Charles Co is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Charles (charlesAI, hello-charles.com) is a Berlin-based conversational
+  commerce and CRM platform that lets brands sell, market, and support customers
+  over WhatsApp, Instagram, Facebook Messenger, and Webchat. Founded in 2019, the
+  platform connects chat-app APIs (WhatsApp Business, Messenger) with e-commerce
+  and CRM systems such as Shopify, Salesforce, SAP, and HubSpot, and layers
+  AI agents over them to automate the full funnel from acquisition and conversion
+  to retention while staying GDPR compliant. Charles exposes a token-authenticated
+  HTTP API organized around per-tenant "universe" hosts, a public Postman
+  workspace, and a (now deprecated) JavaScript/TypeScript browser SDK published to
+  npm. It was surfaced as a portfolio lead of Speedinvest and enriched into the
+  API Evangelist network from its public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/charles-co/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,96 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.hello-charles.com/hubfs/feature_charles.png
 tags:
 - Company
-apis: []
+- Conversational Commerce
+- Messaging
+- WhatsApp
+- CRM
+- Customer Support
+- E-Commerce
+- AI Agents
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: Charles API
+  description: >-
+    Token-authenticated HTTP API behind the Charles conversational commerce
+    platform. Clients authenticate against a per-tenant "universe" host and the
+    central api.hello-charles.com service, then work with conversations,
+    contacts, analytics, topics, and account resources exposed through the
+    browser SDK.
+  humanURL: https://c-commerce.github.io/charles-browser-sdk/
+  baseURL: https://api.hello-charles.com
+  properties:
+  - type: SDK
+    url: https://github.com/c-commerce/charles-browser-sdk
+common:
+- type: DomainSecurity
+  url: security/charles-co-domain-security.yml
+- type: Packages
+  url: packages/charles-co-packages.yml
+- type: SDKs
+  url: packages/charles-co-packages.yml
+- type: Authentication
+  url: authentication/charles-co-authentication.yml
+- type: Conventions
+  url: conventions/charles-co-conventions.yml
+- type: Lifecycle
+  url: lifecycle/charles-co-lifecycle.yml
+- type: StatusPage
+  url: https://status.hello-charles.com/
+- type: LLMsTxt
+  url: llms/charles-co-llms.txt
+- type: Website
+  url: https://www.hello-charles.com/
+- type: DeveloperPortal
+  url: https://c-commerce.github.io/charles-browser-sdk/
+- type: Documentation
+  url: https://c-commerce.github.io/charles-browser-sdk/
+- type: APIReference
+  url: https://c-commerce.github.io/charles-browser-sdk/
+- type: Integrations
+  url: https://www.hello-charles.com/integrations
+- type: Blog
+  url: https://www.hello-charles.com/blog
+- type: Support
+  url: https://help.hello-charles.com/
+- type: HelpCenter
+  url: https://help.hello-charles.com/
+- type: GitHubOrganization
+  url: https://github.com/c-commerce
+- type: Postman
+  url: https://www.postman.com/hello-charles/workspace/charles/
+- type: Login
+  url: https://app.hello-charles.com/
+- type: SignUp
+  url: https://www.hello-charles.com/apply-for-a-demo/
+- type: PrivacyPolicy
+  url: https://www.hello-charles.com/privacy-policy/
+- type: Imprint
+  url: https://www.hello-charles.com/imprint/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

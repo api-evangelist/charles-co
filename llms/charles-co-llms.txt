@@ -1,0 +1,34 @@
+# Charles (charlesAI)
+
+> Berlin-based conversational commerce and CRM platform that lets brands sell, market, and support customers over WhatsApp, Instagram, Facebook Messenger, and Webchat. Charles connects chat-app APIs with e-commerce and CRM systems (Shopify, Salesforce, SAP, HubSpot) and layers AI agents over them. It exposes a token-authenticated HTTP API organized around per-tenant "universe" hosts plus a central api.hello-charles.com service, a public Postman workspace, and a (deprecated) JavaScript/TypeScript browser SDK on npm.
+
+## API
+- [Charles API reference (browser SDK docs)](https://c-commerce.github.io/charles-browser-sdk/): TypeScript SDK documentation covering auth, universe configuration, and resources.
+- [API host](https://api.hello-charles.com): central API service (bearer-token authenticated).
+- [Postman workspace](https://www.postman.com/hello-charles/workspace/charles/): public Postman workspace for the Charles API.
+
+## SDKs
+- [@heycharles/browser-sdk (npm)](https://www.npmjs.com/package/@heycharles/browser-sdk): first-party JavaScript/TypeScript browser SDK (Apache-2.0, deprecated).
+- [charles-browser-sdk (GitHub)](https://github.com/c-commerce/charles-browser-sdk): SDK source.
+- [c-commerce GitHub organization](https://github.com/c-commerce): Charles engineering org.
+
+## Docs
+- [Product](https://www.hello-charles.com/product): platform overview.
+- [Integrations](https://www.hello-charles.com/integrations): Shopify, CRM, and service-tool integrations.
+- [Help Center](https://help.hello-charles.com/): support documentation.
+- [Blog](https://www.hello-charles.com/blog): company blog.
+- [Status](https://status.hello-charles.com/): Charles Internal Services status page.
+
+## Authentication
+- Bearer-token auth obtained via username/password login (see authentication/charles-co-authentication.yml).
+
+## Legal
+- [Privacy Policy](https://www.hello-charles.com/privacy-policy/)
+- [Imprint](https://www.hello-charles.com/imprint/)
+
+## Repo artifacts
+- packages/charles-co-packages.yml — first-party SDK
+- authentication/charles-co-authentication.yml — auth profile
+- conventions/charles-co-conventions.yml — cross-cutting conventions
+- lifecycle/charles-co-lifecycle.yml — status page + lifecycle
+- security/charles-co-domain-security.yml — TLS/DNS posture
