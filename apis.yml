@@ -53,7 +53,7 @@ tags:
 - Messaging
 - WhatsApp
 - CRM
-- Customer-Support
+- Customer Support
 - E-Commerce
 - AI Agents
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Customer Support
 - E-Commerce
 - AI Agents
+- Customer-Support
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
