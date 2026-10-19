@@ -11,6 +11,7 @@ checked:
 - https://n8n.io/integrations/charles-co/
 - https://zapier.com/apps/charles-co/integrations
 - shopify/integrations/shopify-integration-edges.yml
+- zendesk/integrations/zendesk-integration-edges.yml
 summary: null
 marketplace_apps: []
 edges:
@@ -30,4 +31,21 @@ edges:
   listing_count: 1
   detected: '2026-10-15'
   detected_by: mirror-platform-listings.py
+- partner_name: Zendesk (own)
+  partner: zendesk
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.zendesk.com/marketplace/apps/support/1034687/charles/
+  mirror_of: zendesk/integrations/zendesk-integration-edges.yml
+  apps:
+  - charles
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: Messaging
 templates: []
