@@ -64,6 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Charles Co is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Charles (charlesAI, hello-charles.com) is a Berlin-based conversational commerce and CRM platform that lets brands sell, market, and support customers over WhatsApp, Instagram, Facebook Messenger, and Webchat. Founded in 2019, the platform connects chat-app APIs (WhatsApp Business, Messenger) with e-commerce and CRM systems such as Shopify, Salesforce, SAP, and HubSpot, and layers AI agents over them to automate the full funnel from acquisition and conversion to retention while staying GDPR compliant. Charles exposes a token-authenticated HTTP API organized around per-tenant "universe" hosts, a public Postman workspace, and a (now deprecated) JavaScript/TypeScript browser SDK published to npm. It was surfaced as a portfolio lead of Speedinvest and enriched into the API Evangelist network from its public developer surface.
 
-Backed by: speedinvest
+**Areas:** Company · Conversational Commerce · Messaging · WhatsApp · CRM · Customer Service · E-Commerce · AI Agents
+
+## Charles Co on APIs.io
+
+Everything profiled for Charles Co is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/charles-co/](https://apis.io/providers/charles-co/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Charles API](https://apis.io/apis/charles-co/charles-api/) — Token-authenticated HTTP API behind the Charles conversational commerce platform. Clients authenticate against a per-tenant "universe" host and the central…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [charles-co](https://apis.io/servers/charles-co/charles-co/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Charles Co Authentication](https://apis.io/security/charles-co/charles-co-authentication/)
+- [Charles Co Domain Security](https://apis.io/security/charles-co/charles-co-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hello-charles.com/)
+- [Documentation](https://c-commerce.github.io/charles-browser-sdk/)
+- [API reference](https://c-commerce.github.io/charles-browser-sdk/)
+- [Sign up](https://www.hello-charles.com/apply-for-a-demo/)
+- [Support](https://help.hello-charles.com/)
+- [Blog](https://www.hello-charles.com/blog)
+- [Privacy policy](https://www.hello-charles.com/privacy-policy/)
+- [GitHub](https://github.com/c-commerce)
+- [Status](https://status.hello-charles.com/)
+
+## API Evangelist rating
+
+**Kin Score 20.4** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 23.7 |
+
+**Agent readiness 14.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/charles-co/](https://apis.io/providers/charles-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Charles Co: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/charles-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
